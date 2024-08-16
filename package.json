@@ -1,0 +1,12 @@
+{
+    "name": "io.github.numigi.metabase2docs-schema",
+    "version": "1.0.0",
+    "scripts": {
+        "validate": "node src/validate.js",
+        "prepare": "husky"
+    },
+    "devDependencies": {
+        "ajv": "^8.17.1",
+        "husky": "^9.1.4"
+    }
+}
