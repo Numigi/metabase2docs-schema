@@ -1,0 +1,61 @@
+{
+    "title": "Pilotage de production",
+    "author": "NUMIGI SOLUTIONS INC.",
+    "categories": [
+        {
+            "name": "Productivité",
+            "description": "Mesure la productivité des Numigiens.",
+            "questions": [
+                63,
+                64,
+                76,
+                77,
+                78,
+                401
+            ]
+        },
+        {
+            "name": "Budgets",
+            "description": "Suivi du budget et l'avancement d'un projet.",
+            "questions": [
+                62,
+                65,
+                71,
+                72
+            ]
+        },
+        {
+            "name": "Délais",
+            "description": "Suivi des échéances, tickets et lots figés.",
+            "questions": [
+                59,
+                61,
+                66,
+                121
+            ]
+        },
+        {
+            "name": "Support",
+            "description": "Indicateurs liés aux prestations et projets de support.",
+            "questions": [
+                68,
+                122,
+                123,
+                362,
+                450
+            ]
+        },
+        {
+            "name": "Charge de travail",
+            "description": "Représentation de la charge de travail des équipes.",
+            "questions": [
+                274,
+                276,
+                277,
+                278,
+                280,
+                284
+            ]
+        }
+    ]
+}

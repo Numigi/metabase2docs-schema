@@ -1,0 +1,51 @@
+{
+    "$id": "io.github.numigi.metabase2docs-schema/schema.json",
+    "title": "Metabase2Docs",
+    "description": "Metabase cards transposing schema and data definition",
+    "type": "object",
+    "properties": {
+        "title": {
+            "type": "string",
+            "description": "Main report directory name."
+        },
+        "author": {
+            "type": "string",
+            "description": "Report author."
+        },
+        "date": {
+            "type": "string",
+            "description": "Report production date."
+        },
+        "categories": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "Sub-page title."
+                    },
+                    "description": {
+                        "type": "string",
+                        "description": "Sub-page headline description."
+                    },
+                    "questions": {
+                        "type": "array",
+                        "items": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "required": [
+                    "name",
+                    "description",
+                    "questions"
+                ]
+            }
+        }
+    },
+    "required": [
+        "title",
+        "author"
+    ]
+}
