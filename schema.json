@@ -16,6 +16,10 @@
             "type": "string",
             "description": "Report production date."
         },
+	"base_path": {
+	    "type": "string",
+	    "description": "Report base path."
+	},
         "categories": {
             "type": "array",
             "items": {
@@ -46,6 +50,7 @@
     },
     "required": [
         "title",
-        "author"
+        "author",
+	"base_path"
     ]
 }
